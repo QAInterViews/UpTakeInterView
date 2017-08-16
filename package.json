@@ -4,7 +4,7 @@
   "description": "My demo for uptake",
   "main": "index.js",
   "scripts": {
-    "test": "chimp --mocha "
+    "test": "node_modules/.bin/chimp  --mocha "
   },
   "repository": {
     "type": "git",

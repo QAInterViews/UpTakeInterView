@@ -1,5 +1,6 @@
 # UpTakeInterView
 
 Hi Uptake 
-This should be pretty straight forward to get working , clone the repo , npm install chimp and then run chimp --mocha . 
-https://chimp.readme.io/docs/installation
+This should be pretty straight forward to get working , clone the repo , npm install and then run npm test 
+Using ( for purposes of saving time) 
+https://chimp.readme.io/docs/installation 

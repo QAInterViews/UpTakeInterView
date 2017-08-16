@@ -1,0 +1,22 @@
+{
+  "name": "uptakedemo",
+  "version": "1.0.0",
+  "description": "My demo for uptake",
+  "main": "index.js",
+  "scripts": {
+    "test": "chimp --mocha "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QAInterViews/UpTakeInterView.git"
+  },
+  "author": "Keith Wilson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QAInterViews/UpTakeInterView/issues"
+  },
+  "homepage": "https://github.com/QAInterViews/UpTakeInterView#readme",
+  "dependencies": {
+    "chimp": "^0.49.1"
+  }
+}

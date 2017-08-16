@@ -15,7 +15,7 @@ finished. There is no time limit, but the sooner you send it back to us,
 the sooner the team can review it and we can schedule you in for an interview.‚Äù
 */
       Page.init() ; 
-      expect(Page.getTitle()) .to.equal("Analytics for the industrial internet");
+    expect(Page.getTitle()) .to.equal('Analytics for the industrial internet');
     });
 
     it('Go to careers ', function () {
@@ -23,6 +23,10 @@ the sooner the team can review it and we can schedule you in for an interview.‚Ä
       Page.getCareers() ; 
         expect(Page.getTitle()) .to.equal("Careers");
       Page.viewJobs() ; 
+      Page.getHome()
+     Page.checkForCareers() ; 
+      expect(Page.getTitle()) .to.equal('Analytics for the industrial internet');
+
     }) 
   });
 });
